@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>BlazorBeau.BlazorUIComponents</id>
+    <version>1.0.0</version>
+    <authors>Beau Smyth</authors>
+    <owners>Beau Smyth</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <description>Library of simple, useful Blazor UI components.</description>
+    <releaseNotes>Includes lazy-load img and container component.</releaseNotes>
+    <tags>UI, Components, Blazor Components, Razor, Razor Components, Blazor</tags>
+    <repository url="https://github.com/beausmyth1990/BlazorUIComponents" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Microsoft.AspNetCore.Components" version="3.1.4" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Components.Web" version="3.1.4" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\beaus\source\repos\testWASMProj\BlazorUIComponents\bin\Debug\netstandard2.0\BlazorUIComponents.dll" target="lib\netstandard2.0\BlazorUIComponents.dll" />
+    <file src="C:\Users\beaus\source\repos\testWASMProj\BlazorUIComponents\obj\Debug\netstandard2.0\staticwebassets\msbuild.BlazorBeau.BlazorUIComponents.Microsoft.AspNetCore.StaticWebAssets.props" target="build\Microsoft.AspNetCore.StaticWebAssets.props" />
+    <file src="C:\Users\beaus\source\repos\testWASMProj\BlazorUIComponents\obj\Debug\netstandard2.0\staticwebassets\msbuild.build.BlazorBeau.BlazorUIComponents.props" target="build\BlazorBeau.BlazorUIComponents.props" />
+    <file src="C:\Users\beaus\source\repos\testWASMProj\BlazorUIComponents\obj\Debug\netstandard2.0\staticwebassets\msbuild.buildMultiTargeting.BlazorBeau.BlazorUIComponents.props" target="buildMultiTargeting\BlazorBeau.BlazorUIComponents.props" />
+    <file src="C:\Users\beaus\source\repos\testWASMProj\BlazorUIComponents\obj\Debug\netstandard2.0\staticwebassets\msbuild.buildTransitive.BlazorBeau.BlazorUIComponents.props" target="buildTransitive\BlazorBeau.BlazorUIComponents.props" />
+    <file src="C:\Users\beaus\source\repos\testWASMProj\BlazorUIComponents\wwwroot\css\styles.css" target="staticwebassets\css\styles.css" />
+    <file src="C:\Users\beaus\source\repos\testWASMProj\BlazorUIComponents\wwwroot\img\background.png" target="staticwebassets\img\background.png" />
+    <file src="C:\Users\beaus\source\repos\testWASMProj\BlazorUIComponents\wwwroot\js\support.js" target="staticwebassets\js\support.js" />
+  </files>
+</package>

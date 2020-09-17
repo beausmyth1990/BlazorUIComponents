@@ -1,8 +1,17 @@
-<Project Sdk="Microsoft.NET.Sdk.Razor">
+﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <RazorLangVersion>3.0</RazorLangVersion>
+    <PackageId>BlazorBeau.BlazorUIComponents</PackageId>
+    <Company>Blazor Beau</Company>
+    <Authors>Beau Smyth</Authors>
+    <Description>Library of simple, useful Blazor UI components.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/beausmyth1990/BlazorUIComponents</RepositoryUrl>
+    <PackageTags>UI, Components, Blazor Components, Razor, Razor Components, Blazor</PackageTags>
+    <PackageReleaseNotes>Includes lazy-load img and container component.</PackageReleaseNotes>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>

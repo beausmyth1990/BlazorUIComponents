@@ -20,7 +20,7 @@ namespace BlazorUIComponents.Img
         public string LazyLoadSrc { get; set; }
 
         [Parameter]
-        public string PlaceHolderSrc { get; set; } = @"_content/BlazorUIComponents/img/background.png";
+        public string PlaceHolderSrc { get; set; } = @"_content/BlazorBeau.BlazorUIComponents/img/background.png";
 
         [Parameter]
         public string Class { get; set; } = "lazy-img";

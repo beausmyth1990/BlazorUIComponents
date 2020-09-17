@@ -26,7 +26,7 @@ let callback = (entries, observer) => {
     });
 };
 
-let observer = new IntersectionObserver(callback, options);
+let observer = observerApiSupported ? new IntersectionObserver(callback, options) : null;
 
 window.observeElement = function (element, dotNetObj) {
 

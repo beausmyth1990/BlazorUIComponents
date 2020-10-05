@@ -2,14 +2,14 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>BlazorBeau.BlazorUIComponents</id>
-    <version>1.0.0</version>
+    <version>1.0.2</version>
     <authors>Beau Smyth</authors>
     <owners>Beau Smyth</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <license type="expression">MIT</license>
     <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
     <description>Library of simple, useful Blazor UI components.</description>
-    <releaseNotes>Fixed support.js issue where no check was being made before attempting to instantiate an IntersectionObserver object.</releaseNotes>
+    <releaseNotes>Added responsive navbar with same-page navigation support using Observation API</releaseNotes>
     <tags>UI, Components, Blazor Components, Razor, Razor Components, Blazor</tags>
     <repository url="https://github.com/beausmyth1990/BlazorUIComponents" />
     <dependencies>

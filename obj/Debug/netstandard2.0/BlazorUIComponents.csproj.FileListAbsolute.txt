@@ -21,3 +21,5 @@ C:\Users\beaus\source\repos\testWASMProj\BlazorUIComponents\obj\Debug\netstandar
 C:\Users\beaus\source\repos\testWASMProj\BlazorUIComponents\obj\Debug\netstandard2.0\Razor\Img\LazyLoad.razor.g.cs
 C:\Users\beaus\source\repos\testWASMProj\BlazorUIComponents\obj\Debug\netstandard2.0\RazorDeclaration\Container\LazyLoad.razor.g.cs
 C:\Users\beaus\source\repos\testWASMProj\BlazorUIComponents\obj\Debug\netstandard2.0\Razor\Container\LazyLoad.razor.g.cs
+C:\Users\beaus\source\repos\testWASMProj\BlazorUIComponents\obj\Debug\netstandard2.0\RazorDeclaration\nav\NavBarResponsive.razor.g.cs
+C:\Users\beaus\source\repos\testWASMProj\BlazorUIComponents\obj\Debug\netstandard2.0\Razor\nav\NavBarResponsive.razor.g.cs

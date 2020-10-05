@@ -10,8 +10,10 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryUrl>https://github.com/beausmyth1990/BlazorUIComponents</RepositoryUrl>
     <PackageTags>UI, Components, Blazor Components, Razor, Razor Components, Blazor</PackageTags>
-    <PackageReleaseNotes>Includes lazy-load img and container component.</PackageReleaseNotes>
+    <PackageReleaseNotes>Fixed issue where placeholder images weren't pre-loaded prior to being visible within the viewport.</PackageReleaseNotes>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.3</Version>
+    <AssemblyVersion>1.0.1.0</AssemblyVersion>
   </PropertyGroup>
 
   <ItemGroup>

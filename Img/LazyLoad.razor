@@ -1,3 +1,11 @@
 ﻿
-<img src="@(_isInView ? LazyLoadSrc : PlaceHolderSrc)" class="@Class @(_isInView ? ClassInView : "")" @ref="_imgRef" />
 
+<div id="@Id" class="@Class @((_inView && _isLoaded) ? ClassInView : null)" style="background: url(@(_isLoaded ? LazyLoadSrc : PlaceHolderSrc)) center center no-repeat;" @ref="_imgRef">
+    
+    <img class="lazy-img" @onload="@OnLoad" src="@(_inView ? LazyLoadSrc : null)" />
+    
+    <div>
+        @ChildContent
+    </div>
+
+</div>

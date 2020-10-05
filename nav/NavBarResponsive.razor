@@ -1,0 +1,13 @@
+﻿
+<div class="nav-toggle@(_inView ? " open" : "")" style="width: 30px; height: 30px; background: blue" @onclick="@OnToggle">
+    @ToggleContent
+</div>
+
+<nav class="@Class @(_inView ? "inView" : "hidden")">
+    <ul>
+        @foreach (var link in Links)
+        {
+            <li @onclick="@(async () => { _inView = false; if (SamePageNav) await ScrollSectionIntoView(link.Href.Replace("#", "")); })" class="@(_sectionInView != null && _sectionInView.Equals(link.Href) ? SectionInViewClass : "")">@LinkTemplate(link)</li>
+        }
+    </ul>
+</nav>

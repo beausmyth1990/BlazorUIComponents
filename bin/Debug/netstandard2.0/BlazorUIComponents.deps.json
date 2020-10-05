@@ -22,7 +22,7 @@
   },
   "targets": {
     ".NETStandard,Version=v2.0": {
-      "BlazorUIComponents/1.0.0": {
+      "BlazorUIComponents/1.0.3": {
         "dependencies": {
           "Microsoft.AspNetCore.Components": "3.1.4",
           "Microsoft.AspNetCore.Components.Web": "3.1.4",
@@ -879,7 +879,7 @@
       }
     },
     ".NETStandard,Version=v2.0/": {
-      "BlazorUIComponents/1.0.0": {
+      "BlazorUIComponents/1.0.3": {
         "dependencies": {
           "Microsoft.AspNetCore.Components": "3.1.4",
           "Microsoft.AspNetCore.Components.Web": "3.1.4",
@@ -1232,7 +1232,7 @@
     }
   },
   "libraries": {
-    "BlazorUIComponents/1.0.0": {
+    "BlazorUIComponents/1.0.3": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

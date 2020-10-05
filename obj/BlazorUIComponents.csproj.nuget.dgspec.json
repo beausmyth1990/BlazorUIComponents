@@ -5,7 +5,7 @@
   },
   "projects": {
     "C:\\Users\\beaus\\source\\repos\\testWASMProj\\BlazorUIComponents\\BlazorUIComponents.csproj": {
-      "version": "1.0.0",
+      "version": "1.0.3",
       "restore": {
         "projectUniqueName": "C:\\Users\\beaus\\source\\repos\\testWASMProj\\BlazorUIComponents\\BlazorUIComponents.csproj",
         "projectName": "BlazorBeau.BlazorUIComponents",
